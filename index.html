@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JavaWoodWorkingIndustry | Premium Teak Furniture</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+:root{
+--bg:#2fdd80;
+--bg-soft:#909445;
+--card:#909445;
+--text:#000000;
+--muted:#b5cec1;
+--green:#2ecc71;
+--accent:#6ee7b7;
+--border:#2f4a3b;
+}
+
+html{scroll-behavior:smooth}
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:'Inter',sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.7;
+}
+
+h1,h2,h3{
+font-family:'Playfair Display',serif;
+letter-spacing:.4px;
+}
+
+section{
+padding:6rem 2rem;
+max-width:1200px;
+margin:auto;
+}
+
+.label{
+color:#000000;
+font-size:.8rem;
+letter-spacing:2px;
+margin-bottom:.5rem;
+}
+
+/* NAV */
+header{
+position:fixed;
+top:0;
+width:100%;
+background:var(--bg-soft);
+backdrop-filter:blur(8px);
+border-bottom:1px solid var(--border);
+z-index:99;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:1rem 2rem;
+}
+
+.brand{
+display:flex;
+align-items:center;
+gap:.75rem;
+}
+
+.brand img{width:38px}
+.brand span{
+font-size:1rem;
+letter-spacing:1px;
+color:var(--accent);
+}
+
+nav ul{
+display:flex;
+gap:2rem;
+list-style:none;
+}
+
+nav a{
+color:var(--muted);
+font-size:.9rem;
+transition:.3s;
+}
+
+nav a:hover{color:#ffffff}
+
+/* HERO */
+.hero{
+height:100vh;
+background:var(--bg);
+background-image:url('assets/images/hero-bg.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+max-width:720px;
+margin-left:2rem;
+background:#909445;
+padding:3rem;
+border-radius:20px;
+}
+
+.hero h1{font-size:3rem}
+.hero p{
+margin-top:1rem;
+color:#d9efe3;
+max-width:600px;
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+margin-top:2rem;
+padding:14px 36px;
+border-radius:40px;
+background:var(--green);
+color:#052013;
+font-weight:500;
+transition:.3s ease;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+background:#28b463;
+}
+
+/* GRID */
+.grid{display:grid;gap:2rem}
+.grid-3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+
+.card{
+background:var(--card);
+padding:2.5rem;
+border-radius:18px;
+border:1px solid var(--border);
+transition:.3s ease;
+}
+
+.card:hover{
+transform:translateY(-6px);
+background:#234736;
+}
+
+/* GALLERY */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:1.5rem;
+}
+
+.gallery img{
+width:100%;
+height:240px;
+object-fit:cover;
+border-radius:18px;
+transition:.4s ease;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+
+.gallery video{
+width:100%;
+height:240px;
+object-fit:cover;
+border-radius:18px;
+transition:.4s ease;
+}
+
+.gallery video:hover{
+transform:scale(1.03);
+}
+
+/* BOX */
+.box{
+background:#909445;
+padding:3rem;
+border-radius:28px;
+border:1px solid var(--border);
+}
+
+
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:2rem;
+color:#000000;
+font-size:.85rem;
+}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25d366;
+color:#052013;
+padding:15px 26px;
+border-radius:50px;
+font-weight:500;
+transition:.3s;
+}
+
+.whatsapp:hover{transform:translateY(-3px)}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="brand">
+<img src="Logo_JWWI.jpg" alt="JavaWoodWorkingIndustry Logo">
+<span>JavaWoodWorkingIndustry</span>
+</div>
+
+<ul>
+<li><a href="#About Us">About Us</a></li>
+<li><a href="#Our Products">Our Products</a></li>
+<li><a href="#How We Works">How We Works</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1 data-aos="fade-up">Custom-Made legal wood products ready for exporting from Blora, Central Java, Indonesia.</h1>
+<p data-aos="fade-up" data-aos-delay="200">
+"Welcome to Java Woodworking Industry, where we're passionate about crafting exceptional, custom-made furniture that tells a story. We combine traditional Indonesian craftsmanship with sustainable, legally-sourced wood to create truly unique pieces for clients worldwide.
+
+Whether you're a homeowner, importers, interior designer, or architect, we'd love to collaborate with you to bring your furniture vision to life. Get in touch with us today to explore how our bespoke furniture can elevate your space."
+</p>
+<a href="#products" class="btn" data-aos="fade-up" data-aos-delay="400">Explore Collection</a>
+</div>
+</section>
+
+<section id="About Us">
+<p class="label">OUR PHILOSOPHY</p>
+<h2>Heritage Craftsmanship & Ethical Sourcing</h2>
+<div class="grid grid-3">
+<div class="card">Built to last for generations</div>
+<div class="card">SVLK-certified teak wood (PERHUTANI Indonesian Legal Wood Certificate)</div>
+<div class="card">Handcrafted by master carpenters, including teak carving carpenters</div>
+</div>
+</section>
+
+<section id="Our Products">
+<p class="label">Our Range of Products</p>
+<h2></h2>
+<div class="gallery">
+<img src="produk/1a.jpg">
+<img src="produk/2.jpg">
+<img src="produk/8.jpg">
+<img src="produk/9.jpg">
+</div>
+</section>
+
+<section id="How We Works">
+<p class="label">OUR PROCESS</p>
+<h2>We are producing Teak furniture based on the customer's request or orders.
+
+Our working process are simple, customers will share their owned designed and specifications to us, then our team will review and calculate on each design before we implementing the mass production. Minimum orders 2 containers with 40" feet sizes.</h2>
+<div class="grid grid-3">
+<div class="card">Carefully selected mature teak</div>
+<div class="card">Kiln-dried for climate stability</div>
+<div class="card">Traditional joinery & finishing</div>
+<div class="card">Quality control at every stage</div>
+</div>
+<div class="gallery">
+<img src="Proses/17.jpg">
+<img src="Proses/4.jpg">
+<img src="Proses/3.jpg">
+<img src="Proses/16.jpg">
+<img src="Proses/6.jpg">
+<img src="Proses/24.jpg">
+<img src="Proses/7.jpg">
+<img src="Proses/32.jpg">
+<video src="Proses/1.mp4" controls></video>
+</div>
+</section>
+
+<section id="contact">
+<div class="box">
+<p class="label">Contact Us</p>
+<h2></h2>
+
+
+<p style="margin-top:1.5rem">
+<b>WhatsApp:</b> +62 852-9197-7292<br>
+<b>Email:</b>javawoodworkingindustry@gmail.com
+</p>
+</div>
+</section>
+
+<footer>
+© 2026 JavaWoodWorkingIndustry. All rights reserved.
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/6285291977292"
+target="_blank">WhatsApp</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({duration:900,once:true});
+</script>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs@3/dist/email.min.js"></script>
+<script>
+(function(){
+  emailjs.init("aTn61bVAtd5Bgo_yk");
+})();
+</script>
+
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_jwwi2025",
+    "template_qwf64p9",
+    this
+  ).then(function() {
+    alert("Thank you! Your message has been sent successfully.");
+    document.getElementById("contact-form").reset();
+  }, function(error) {
+    alert("Failed to send message. Please try again.");
+    console.error(error);
+  });
+});
+</script>
+
+</body>
+</html>
