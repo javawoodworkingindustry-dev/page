@@ -224,9 +224,36 @@ font-weight:500;
 font-size:.85rem;
 text-decoration:none;
 transition:.3s;
+z-index:999;
 }
 
 .whatsapp:hover{transform:translateY(-4px)}
+
+/* ================= INSTAGRAM FLOATING ================= */
+.instagram{
+position:fixed;
+bottom:80px;
+right:22px;
+width:52px;
+height:52px;
+background:#fff;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 6px 18px rgba(0,0,0,.18);
+transition:.3s;
+z-index:999;
+}
+
+.instagram img{
+width:26px;
+height:26px;
+}
+
+.instagram:hover{
+transform:translateY(-4px) scale(1.05);
+}
 
 /* ================= RESPONSIVE SAFETY ================= */
 @media(max-width:768px){
@@ -261,7 +288,7 @@ h1{font-size:1.9rem}
 <section class="hero">
 <div class="container">
 <div class="hero-box" data-aos="fade-up">
-<h1>We are a group of experienced teak carpenters since 2007, based in Blora, Central Java, Indonesia.  Our team can produce all kinds of furniture products, including teak deckings sourcing from legal Indonesian teak logs. Our products are ready for exporting and domestic uses.</h1>
+<h1>We are a group of experienced teak carpenters since 2007, based in Blora, Central Java, Indonesia. Our team can produce all kinds of furniture products, including teak deckings sourcing from legal Indonesian teak logs. Our products are ready for exporting and domestic uses.</h1>
 <p>
 "Welcome to Java Woodworking Industry, where we're passionate about crafting exceptional, custom-made furniture that tells a story. We combine traditional Indonesian craftsmanship with sustainable, legally-sourced wood to create truly unique pieces for clients worldwide.
 
@@ -361,6 +388,10 @@ Our working process are simple, customers will share their owned designed and sp
 
 <a class="whatsapp" href="https://wa.me/6285291977292" target="_blank">
 WhatsApp
+</a>
+
+<a class="instagram" href="https://www.instagram.com/javawoodworking/" target="_blank">
+<img src="IG.png" alt="Instagram">
 </a>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
