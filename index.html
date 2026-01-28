@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>JavaWoodWorkingIndustry | Premium Teak Furniture</title>
+<title>Java Woodworking Industry | Premium Teak Furniture Manufacturer Indonesia</title>
 
-<meta name="description" content="Java Woodworking Industry is an experienced teak furniture manufacturer since 2007 based in Blora, Central Java, Indonesia. Producing custom teak furniture for export and domestic use using legal Indonesian teak wood.">
+<meta name="description" content="Java Woodworking Industry is a premium teak furniture manufacturer from Central Java, Indonesia. Producing custom indoor and outdoor teak furniture using legally sourced Indonesian teak wood for export and domestic markets.">
+<meta name="keywords" content="teak furniture Indonesia, teak furniture manufacturer, custom teak furniture, Indonesian teak wood, furniture exporter Central Java">
 <meta name="robots" content="index, follow">
+
 <link rel="canonical" href="https://www.javawoodworkingindustry.com/">
+
+<meta property="og:title" content="Java Woodworking Industry | Premium Teak Furniture Manufacturer">
+<meta property="og:description" content="Experienced teak furniture craftsmen since 2007, based in Central Java, Indonesia. Custom indoor & outdoor teak furniture for global markets.">
+<meta property="og:type" content="website">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,31 +29,44 @@
 --green:#2ecc71;
 --border:#2f4a3b;
 }
+
 html{scroll-behavior:smooth}
 *{margin:0;padding:0;box-sizing:border-box}
+
 body{
 font-family:'Inter',sans-serif;
 background:var(--bg);
 color:var(--text);
 line-height:1.55;
 }
+
+/* ================= TYPOGRAPHY ================= */
 h1,h2,h3{
 font-family:'Playfair Display',serif;
 letter-spacing:.25px;
 }
+
 h1{font-size:2.15rem}
 h2{font-size:1.65rem}
+
+/* ================= LAYOUT ================= */
 .container{
 max-width:1180px;
 margin:auto;
 padding:0 1.75rem;
 }
-section{padding:4.6rem 0;}
+
+section{
+padding:4.6rem 0;
+}
+
 .label{
 font-size:.72rem;
 letter-spacing:2px;
 margin-bottom:.55rem;
 }
+
+/* ================= NAVBAR ================= */
 header{
 position:fixed;
 top:0;
@@ -59,32 +77,47 @@ border-bottom:1px solid var(--border);
 z-index:99;
 transition:.3s;
 }
-header.scrolled{box-shadow:0 6px 18px rgba(0,0,0,.12);}
+
+header.scrolled{
+box-shadow:0 6px 18px rgba(0,0,0,.12);
+}
+
 nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
 height:64px;
 }
+
 .brand{
 display:flex;
 align-items:center;
 gap:.65rem;
 }
+
 .brand img{width:34px}
-.brand span{font-size:.88rem;letter-spacing:1px;}
+
+.brand span{
+font-size:.88rem;
+letter-spacing:1px;
+}
+
 nav ul{
 display:flex;
 gap:1.6rem;
 list-style:none;
 }
+
 nav a{
 color:var(--muted);
 font-size:.82rem;
 text-decoration:none;
 transition:.3s;
 }
+
 nav a:hover{color:#000}
+
+/* ================= HERO ================= */
 .hero{
 height:100vh;
 background:url('assets/images/hero-bg.jpg') center/cover no-repeat;
@@ -92,17 +125,21 @@ display:flex;
 align-items:center;
 padding-top:70px;
 }
+
 .hero-box{
 background:#909445;
 max-width:720px;
 padding:2.4rem;
 border-radius:24px;
 }
+
 .hero p{
 margin-top:.95rem;
 font-size:.9rem;
 max-width:620px;
 }
+
+/* ================= BUTTON ================= */
 .btn{
 display:inline-block;
 margin-top:1.7rem;
@@ -115,15 +152,23 @@ text-decoration:none;
 transition:.3s ease;
 font-size:.88rem;
 }
-.btn:hover{transform:translateY(-2px);background:#28b463;}
+
+.btn:hover{
+transform:translateY(-2px);
+background:#28b463;
+}
+
+/* ================= GRID ================= */
 .grid{
 display:grid;
 gap:1.5rem;
 margin-top:1.7rem;
 }
+
 .grid-3{
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 }
+
 .card{
 background:var(--card);
 padding:2.1rem;
@@ -132,13 +177,19 @@ border:1px solid var(--border);
 font-size:.88rem;
 transition:.3s;
 }
-.card:hover{transform:translateY(-5px);}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* ================= GALLERY ================= */
 .gallery{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
 gap:1.25rem;
 margin-top:2.1rem;
 }
+
 .gallery img,
 .gallery video{
 width:100%;
@@ -147,8 +198,13 @@ object-fit:cover;
 border-radius:16px;
 transition:.4s;
 }
+
 .gallery img:hover,
-.gallery video:hover{transform:scale(1.03);}
+.gallery video:hover{
+transform:scale(1.03);
+}
+
+/* ================= CONTACT ================= */
 .box{
 background:#909445;
 padding:2.6rem;
@@ -157,7 +213,15 @@ border:1px solid var(--border);
 max-width:680px;
 margin:auto;
 }
-footer{text-align:center;padding:1.8rem;font-size:.78rem;}
+
+/* ================= FOOTER ================= */
+footer{
+text-align:center;
+padding:1.8rem;
+font-size:.78rem;
+}
+
+/* ================= WHATSAPP ================= */
 .whatsapp{
 position:fixed;
 bottom:22px;
@@ -172,7 +236,10 @@ text-decoration:none;
 transition:.3s;
 z-index:999;
 }
+
 .whatsapp:hover{transform:translateY(-4px)}
+
+/* ================= INSTAGRAM FLOATING ================= */
 .instagram{
 position:fixed;
 bottom:80px;
@@ -188,10 +255,22 @@ box-shadow:0 6px 18px rgba(0,0,0,.18);
 transition:.3s;
 z-index:999;
 }
-.instagram img{width:26px;height:26px;}
-.instagram:hover{transform:translateY(-4px) scale(1.05);}
+
+.instagram img{
+width:26px;
+height:26px;
+}
+
+.instagram:hover{
+transform:translateY(-4px) scale(1.05);
+}
+
+/* ================= RESPONSIVE ================= */
 @media(max-width:768px){
-.hero-box{padding:2rem;margin:1rem;}
+.hero-box{
+padding:2rem;
+margin:1rem;
+}
 h1{font-size:1.9rem}
 }
 </style>
@@ -203,7 +282,7 @@ h1{font-size:1.9rem}
 <div class="container">
 <nav>
 <div class="brand">
-<img src="Logo_JWWI.jpg" alt="Java Woodworking Industry logo">
+<img src="Logo_JWWI.jpg" alt="Java Woodworking Industry Logo">
 <span>JavaWoodWorkingIndustry</span>
 </div>
 <ul>
@@ -220,62 +299,96 @@ h1{font-size:1.9rem}
 <div class="container">
 <div class="hero-box" data-aos="fade-up">
 
-<h1>
-We are a group of experienced teak carpenters since 2007, based in Blora, Central Java, Indonesia.
-</h1>
+<h1>Premium Teak Furniture Manufacturer from Central Java, Indonesia</h1>
 
 <p>
-Our team can produce all kinds of furniture products, including teak deckings sourcing from legal Indonesian teak logs. Our products are ready for exporting and domestic uses.
-</p>
-
-<p>
-"Welcome to Java Woodworking Industry, where we're passionate about crafting exceptional, custom-made furniture that tells a story. We combine traditional Indonesian craftsmanship with sustainable, legally-sourced wood to create truly unique pieces for clients worldwide.
-
-Whether you're a homeowner, importers, interior designer, or architect, we'd love to collaborate with you to bring your furniture vision to life. Get in touch with us today to explore how our bespoke furniture can elevate your space."
+We are a group of experienced teak carpenters since 2007, based in Blora, Central Java, Indonesia. Our team produces custom indoor and outdoor teak furniture using legally sourced Indonesian teak wood for export and domestic markets.
 </p>
 
 <a href="#products" class="btn">Explore Collection</a>
+</div>
+</div>
+</section>
 
+<section id="about">
+<div class="container">
+<p class="label">OUR PHILOSOPHY</p>
+<h2>Heritage Craftsmanship & Ethical Sourcing</h2>
+<div class="grid grid-3">
+<div class="card">Built to last for generations</div>
+<div class="card">SVLK-certified teak wood (PERHUTANI Indonesian Legal Wood Certificate)</div>
+<div class="card">Handcrafted by master carpenters, including teak carving specialists</div>
 </div>
 </div>
 </section>
 
 <section id="products">
 <div class="container">
-<div class="gallery">
-<img src="1a.jpg" alt="Custom teak furniture handcrafted in Central Java">
-<img src="2.jpg" alt="Premium teak furniture Indonesia">
-<img src="8.jpg" alt="Handmade teak wood furniture">
-<img src="9.jpg" alt="Custom teak furniture for export">
-<img src="26.jpg" alt="Solid teak wood furniture">
-<img src="floor.jpeg" alt="Teak flooring made from legal Indonesian teak">
-<img src="19.jpg" alt="Bespoke teak furniture project">
-<img src="20.jpg" alt="Teak furniture manufacturing process">
-<img src="21.jpg" alt="High quality teak furniture Indonesia">
-<img src="35.jpg" alt="Custom teak furniture craftsmanship">
-<img src="23.jpg" alt="Premium teak furniture detail">
-<img src="11.jpg" alt="Teak furniture workshop Indonesia">
-<img src="36.jpg" alt="Outdoor teak furniture production">
-<img src="37.jpg" alt="Export quality teak furniture">
-<img src="38.jpg" alt="Traditional teak carpentry Indonesia">
-<img src="39.jpg" alt="Handcrafted teak furniture Blora">
+<p class="label">OUR PRODUCTS</p>
+<div class="grid grid-3">
+<div class="card">Indoor teak furniture: sofas, chairs, tables, cabinets</div>
+<div class="card">Outdoor teak furniture: garden benches, dining sets, planters</div>
+<div class="card">Custom teak furniture designs based on client specifications</div>
 </div>
+
+<div class="gallery">
+<img src="1a.jpg" alt="Custom teak furniture workshop Central Java">
+<img src="2.jpg" alt="Handcrafted teak furniture Indonesia">
+<img src="8.jpg" alt="Teak furniture production process">
+<img src="9.jpg" alt="Premium teak wood furniture">
+<img src="26.jpg" alt="Teak furniture export quality">
+<img src="floor.jpeg" alt="Teak wood flooring material">
+<img src="19.jpg" alt="Indoor teak furniture design">
+<img src="20.jpg" alt="Outdoor teak furniture set">
+<img src="21.jpg" alt="Custom teak furniture detail">
+<img src="35.jpg" alt="Teak furniture manufacturing">
+<img src="23.jpg" alt="Solid teak furniture">
+<img src="11.jpg" alt="Teak furniture finishing">
+<img src="36.jpg" alt="Teak furniture craftsmanship">
+<img src="37.jpg" alt="Indonesian teak wood furniture">
+<img src="38.jpg" alt="Teak furniture quality control">
+<img src="39.jpg" alt="Teak furniture warehouse">
 </div>
 </section>
 
 <section id="process">
 <div class="container">
+<p class="label">OUR PROCESS</p>
+<h2>Custom Teak Furniture Production Process</h2>
+
+<p style="margin-top:1rem;font-size:.9rem">
+We produce teak furniture based on customer requests and specifications. Our process includes design review, material calculation, and mass production. Minimum order: 2 containers (40 ft).
+</p>
+
+<div class="grid grid-3">
+<div class="card">Carefully selected mature teak wood</div>
+<div class="card">Kiln-dried for climate stability</div>
+<div class="card">Traditional joinery & finishing</div>
+<div class="card">Quality control at every stage</div>
+</div>
+
 <div class="gallery">
 <img src="Proses/17.jpg" alt="Teak furniture production process">
-<img src="Proses/4.jpg" alt="Teak wood selection process">
-<img src="Proses/3.jpg" alt="Teak furniture carpentry process">
-<img src="Proses/16.jpg" alt="Furniture finishing process">
-<img src="Proses/6.jpg" alt="Teak furniture quality control">
-<img src="Proses/24.jpg" alt="Traditional teak furniture workshop">
-<img src="Proses/7.jpg" alt="Teak furniture manufacturing Indonesia">
-<img src="Proses/32.jpg" alt="Custom teak furniture production">
+<img src="Proses/4.jpg" alt="Teak wood cutting process">
+<img src="Proses/3.jpg" alt="Teak furniture assembly">
+<img src="Proses/16.jpg" alt="Teak furniture workshop">
+<img src="Proses/6.jpg" alt="Furniture sanding process">
+<img src="Proses/24.jpg" alt="Furniture finishing process">
+<img src="Proses/7.jpg" alt="Furniture quality inspection">
+<img src="Proses/32.jpg" alt="Furniture packaging for export">
 <video src="2.mp4" controls></video>
 <video src="3.mp4" controls></video>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="box">
+<p class="label">CONTACT US</p>
+<p style="margin-top:1.8rem">
+<b>WhatsApp:</b> +62 852-9197-7292<br>
+<b>Email:</b> javawoodworkingindustry@gmail.com
+</p>
 </div>
 </div>
 </section>
